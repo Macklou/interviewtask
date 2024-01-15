@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Red Bank</title>
+
+    <link rel="stylesheet" href="stylesheet/all.min.css" />
+
+    <link rel="stylesheet" href="stylesheet/splide.min.css" />
+
+    <link rel="stylesheet" href="stylesheet/style.css" />
+  </head>
+  <body>
+    <section
+      class="hero-section bg-[url('../img/hero-bg.png')] bg-cover bg-no-repeat bg-center md:h-[60vh] lg:h-[90vh] py-[30px] md:py-[50px]"
+    >
+      <header
+        id="mbl-menu"
+        class="h-[55px] transition-all duration-300 overflow-hidden"
+      >
+        <nav
+          class="container flex justify-between items-center text-white pb-[30px] border-b border-white"
+        >
+          <a href="#">
+            <img src="img/logo.svg" alt="red bank" />
+          </a>
+          <div class="flex gap-[40px] font-avenir uppercase">
+            <ul class="hidden lg:flex gap-[40px]">
+              <li><a href="#" class="text-base">Subscriptions</a></li>
+              <li>
+                <a href="#" class="text-base"
+                  >Shop <i class="fa-solid fa-chevron-down"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="text-base"
+                  >Read <i class="fa-solid fa-chevron-down"></i
+                ></a>
+              </li>
+            </ul>
+
+            <div class="flex gap-4 items-center">
+              <img class="w-[18px]" src="img/icon/User.svg" alt="user" />
+
+              <img class="w-[18px]" src="img/icon/Search.svg" alt="search" />
+
+              <img
+                class="w-[18px]"
+                src="img/icon/Shopping Cart.svg"
+                alt="cart"
+              />
+
+              <div
+                id="toggle-btn"
+                class="block space-y-1 cursor-pointer lg:hidden"
+              >
+                <div id="bar-1" class="w-5 h-[2px] bg-white"></div>
+                <div id="bar-2" class="w-5 h-[2px] bg-white"></div>
+                <div id="bar-3" class="w-5 h-[2px] bg-white"></div>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="mbl-menu bg-primary_bg text-primary_text lg:hidden">
+          <ul
+            class="flex flex-col items-center text-xl py-4 space-y-4 font-avenir uppercase"
+          >
+            <li><a href="#" class="text-base">Subscriptions</a></li>
+            <li>
+              <a href="#" class="text-base"
+                >Shop <i class="fa-solid fa-chevron-down"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="text-base"
+                >Read <i class="fa-solid fa-chevron-down"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </header>
+
+      <div class="container h-full flex items-end md:items-center">
+        <h1
+          class="font-belwel font-bold text-white max-w-[27ch] text-3xl pt-[226px] md:pt-0 md:text-[40px]"
+        >
+          A carefully curated selection of exceptional quality, highly
+          traceable, and responsibly sourced coffees.
+        </h1>
+      </div>
+    </section>
+
+    <section class="slider-section bg-primary_bg py-primaryForMb md:py-primary">
+      <div class="container mb-[50px] md:mb-[75px]">
+        <div
+          class="flex justify-between items-center pb-[30px] border-b border-[#DBCDB1]"
+        >
+          <h2
+            class="font-belwel font-normal text-primary_text text-[25px] md:text-3xl"
+          >
+            Currently Roasting
+          </h2>
+          <a
+            href="#"
+            class="text-primary_text font-avenir text-xs font-medium tracking-[2.4px]"
+          >
+            SEE ALL <i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="h-[510px] text-primary_text flex overflow-hidden">
+        <section class="splide" aria-label="Splide Basic HTML Example">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide mx-7 max-w-[260px]">
+                <a href="#" class="w-full card">
+                  <div class="relative">
+                    <img
+                      class="mb-[40px] max-w-[255px] transition-all duration-300 image"
+                      src="img/slider/1.png"
+                      alt="card-image"
+                    />
+                    <div
+                      class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[50px] h-[50px] bg-white rounded-full uppercase font-avenir font-semibold text-[9px] flex justify-center items-center text-center opacity-0 transition duration-300 quick-view"
+                    >
+                      Quick view
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <div
+                      class="flex gap-[15px] justify-center items-center mb-3 font-avenir font-sm font-semibold uppercase"
+                    >
+                      <p>Costa Rica</p>
+                      <img src="img/icon/bar.png" alt="bar" />
+                      <p>Omni</p>
+                    </div>
+                    <h2 class="font-belwel text-3xl font-normal mb-1">
+                      Festive Coffee
+                    </h2>
+
+                    <h3 class="font-belwel font-normal text-2xl">
+                      from £16.00
+                    </h3>
+                  </div>
+                </a>
+              </li>
+              <li class="splide__slide mx-7 max-w-[260px]">
+                <a href="#" class="w-full card">
+                  <div class="relative">
+                    <img
+                      class="mb-[40px] max-w-[255px] transition-all duration-300 image"
+                      src="img/slider/2.png"
+                      alt="card-image"
+                    />
+                    <div
+                      class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[50px] h-[50px] bg-white rounded-full uppercase font-avenir font-semibold text-[9px] flex justify-center items-center text-center opacity-0 transition duration-300 quick-view"
+                    >
+                      Quick view
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <div
+                      class="flex gap-[15px] justify-center items-center mb-3 font-avenir font-sm font-semibold uppercase"
+                    >
+                      <p>Colombia</p>
+                      <img src="img/icon/bar.png" alt="bar" />
+                      <p>Espresso</p>
+                    </div>
+                    <h2 class="font-belwel text-3xl font-normal mb-1">
+                      Penny Sweet
+                    </h2>
+
+                    <h3 class="font-belwel font-normal text-2xl">
+                      from £16.00
+                    </h3>
+                  </div>
+                </a>
+              </li>
+              <li class="splide__slide mx-7 max-w-[260px]">
+                <a href="#" class="w-full card">
+                  <div class="relative">
+                    <img
+                      class="mb-[40px] max-w-[255px] transition-all duration-300 image"
+                      src="img/slider/3.png"
+                      alt="card-image"
+                    />
+                    <div
+                      class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[50px] h-[50px] bg-white rounded-full uppercase font-avenir font-semibold text-[9px] flex justify-center items-center text-center opacity-0 transition duration-300 quick-view"
+                    >
+                      Quick view
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <div
+                      class="flex gap-[15px] justify-center items-center mb-3 font-avenir font-sm font-semibold uppercase"
+                    >
+                      <p>Costa Rica</p>
+                      <img src="img/icon/bar.png" alt="bar" />
+                      <p>Omni</p>
+                    </div>
+                    <h2 class="font-belwel text-3xl font-normal mb-1">
+                      Aquiares
+                    </h2>
+
+                    <h3 class="font-belwel font-normal text-2xl">
+                      from £16.00
+                    </h3>
+                  </div>
+                </a>
+              </li>
+              <li class="splide__slide mx-7 max-w-[260px]">
+                <a href="#" class="w-full card">
+                  <div class="relative">
+                    <img
+                      class="mb-[40px] max-w-[255px] transition-all duration-300 image"
+                      src="img/slider/4.png"
+                      alt="card-image"
+                    />
+                    <div
+                      class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[50px] h-[50px] bg-white rounded-full uppercase font-avenir font-semibold text-[9px] flex justify-center items-center text-center opacity-0 transition duration-300 quick-view"
+                    >
+                      Quick view
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <div
+                      class="flex gap-[15px] justify-center items-center mb-3 font-avenir font-sm font-semibold uppercase"
+                    >
+                      <p>Ethiopia</p>
+                      <img src="img/icon/bar.png" alt="bar" />
+                      <p>Omni</p>
+                    </div>
+                    <h2 class="font-belwel text-3xl font-normal mb-1">
+                      Genji Challa
+                    </h2>
+
+                    <h3 class="font-belwel font-normal text-2xl">
+                      from £13.00
+                    </h3>
+                  </div>
+                </a>
+              </li>
+              <li class="splide__slide mx-7 max-w-[260px]">
+                <a href="#" class="w-full card">
+                  <div class="relative">
+                    <img
+                      class="mb-[40px] max-w-[255px] transition-all duration-300 image"
+                      src="img/slider/5.png"
+                      alt="card-image"
+                    />
+                    <div
+                      class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[50px] h-[50px] bg-white rounded-full uppercase font-avenir font-semibold text-[9px] flex justify-center items-center text-center opacity-0 transition duration-300 quick-view"
+                    >
+                      Quick view
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <div
+                      class="flex gap-[15px] justify-center items-center mb-3 font-avenir font-sm font-semibold uppercase"
+                    >
+                      <p>Brazil</p>
+                      <img src="img/icon/bar.png" alt="bar" />
+                      <p>Omni</p>
+                    </div>
+                    <h2 class="font-belwel text-3xl font-normal mb-1">
+                      Our Plot
+                    </h2>
+
+                    <h3 class="font-belwel font-normal text-2xl">
+                      from £12.00
+                    </h3>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section class="our-principles py-primaryForMb md:py-primary">
+      <div
+        class="container flex flex-col-reverse items-center gap-[50px] md:gap-0 md:flex-row md:justify-between"
+      >
+        <div class="text-[#48521F]">
+          <h3 class="mb-[30px] md:mb-10 font-belwel font-normal text-3xl">
+            Our principles
+          </h3>
+          <p
+            class="mb-[30px] md:mb-10 font-avenir text-base font-semibold max-w-[50ch]"
+          >
+            Red Bank is guided by three core principles: Quality, Traceability,
+            Sustainability.
+          </p>
+          <a
+            href="#"
+            class="font-avenir text-sm font-medium uppercase tracking-[2.4px]"
+            >Our Guiding Principles <i class="fa-solid fa-arrow-right-long"></i
+          ></a>
+        </div>
+
+        <div class="right">
+          <img src="img/Image.png" alt="image" />
+        </div>
+      </div>
+    </section>
+
+    <section class="our-partners bg-primary_bg py-primaryForMb md:py-primary">
+      <div
+        class="container flex flex-col gap-[50px] items-center justify-between md:flex-row md:gap-4 lg:gap-0"
+      >
+        <div>
+          <img src="img/Stacked Images.png" alt="our-partners" />
+        </div>
+
+        <div class="right text-primary_text font-belwel">
+          <h2 class="mb-[30px] md:mb-10 text-3xl font-normal">Our partners</h2>
+          <h3
+            class="pb-[15px] md:pb-5 border-b border-[#95A061] border-dotted text-[40px] font-bold"
+          >
+            Daterra
+          </h3>
+          <h3
+            class="pb-[15px] pt-[15px] md:pt-5 md:pb-5 border-b border-[#95A061] border-dotted text-[40px] font-bold"
+          >
+            Raw Material
+          </h3>
+          <h3 class="pt-[15px] md:pt-5 mb-10 text-[40px] font-bold">
+            Suke Quto
+          </h3>
+          <a
+            href="#"
+            class="font-avenir text-[12px] md:text-sm font-medium uppercase tracking-[2.4px]"
+            >Learn More About Our Partners
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="join-tyhe-club py-primaryForMb md:py-primary bg-primary_text text-white"
+    >
+      <div class="container flex flex-col justify-center items-center">
+        <div class="w-full text-center">
+          <h2
+            class="text-[25px] md:text-3xl font-belwel font-normal pb-[15px] mb-[15px] border-b border-[#95A061] border-dashed"
+          >
+            Join the Club
+          </h2>
+        </div>
+        <div class="flex gap-5 mb-[40px]">
+          <img
+            class="hidden md:block"
+            src="img/icon/Floral Element.svg"
+            alt="floral"
+          />
+          <h3 class="text-[30px] md:text-[40px] font-bold font-belwel">
+            Adventure Subscription
+          </h3>
+          <img
+            class="hidden md:block"
+            src="img/icon/Floral Element.svg"
+            alt="floral"
+          />
+        </div>
+        <div>
+          <a
+            href="#"
+            class="font-avenir text-sm font-medium uppercase tracking-[2.4px] bg-primary_bg text-primary_text px-[30px] py-5 border transition duration-300 hover:bg-transparent hover:text-primary_bg hover:border-primary_bg"
+            >lrearn more</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="we-have-been py-primaryForMb md:py-primary bg-white">
+      <div class="container">
+        <h2
+          class="font-belwel font-normal text-3xl text-primary_text text-center mb-[50px] md:mb-[75px]"
+        >
+          Things we’ve been up to
+        </h2>
+      </div>
+
+      <div class="grid grid-cols-2 grid-rows-2 mb-[50px] md:hidden">
+        <img class="w-full" src="img/slider/6.png" alt="card-image" />
+        <img class="w-full" src="img/slider/7.png" alt="card-image" />
+        <img class="w-full" src="img/slider/8.png" alt="card-image" />
+        <img class="w-full" src="img/slider/9.png" alt="card-image" />
+      </div>
+
+      <div class="mb-[85px] hidden md:block">
+        <section class="splide splide2" aria-label="Splide Basic HTML Example">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide max-w-[360px]">
+                <img
+                  class="mb-[40px] w-full transition-all duration-300 image"
+                  src="img/slider/6.png"
+                  alt="card-image"
+                />
+              </li>
+              <li class="splide__slide max-w-[360px]">
+                <img
+                  class="mb-[40px] w-full transition-all duration-300 image"
+                  src="img/slider/7.png"
+                  alt="card-image"
+                />
+              </li>
+              <li class="splide__slide max-w-[360px]">
+                <img
+                  class="mb-[40px] w-full transition-all duration-300 image"
+                  src="img/slider/8.png"
+                  alt="card-image"
+                />
+              </li>
+              <li class="splide__slide max-w-[360px]">
+                <img
+                  class="mb-[40px] w-full transition-all duration-300 image"
+                  src="img/slider/9.png"
+                  alt="card-image"
+                />
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+      <div class="text-center">
+        <a
+          href="#"
+          class="font-avenir text-sm font-medium uppercase tracking-[2.4px] bg-primary_text text-primary_bg px-[30px] py-5 border transition duration-300 hover:bg-transparent hover:text-primary_text hover:border-primary_text"
+          >Follow Us on Instagram</a
+        >
+      </div>
+    </section>
+
+    <footer
+      class="footer py-primaryForMb md:py-primary bg-footer_bg text-footer_text"
+    >
+      <div class="container">
+        <div
+          class="flex flex-col md:border-b border-[#B4A587] md:mb-[50px] md:pb-[50px] md:flex-row md:justify-between"
+        >
+          <div
+            id="1st-col"
+            class="transition-all duration-300 h-[45px] overflow-hidden border-b border-[#B4A587] border-dashed md:border-none mb-[30px] md:h-auto"
+          >
+            <ul>
+              <li
+                class="font-avenir text-sm font-medium pb-[30px] uppercase flex justify-between"
+              >
+                Shop
+                <i class="fa-solid fa-angle-down md:hidden"></i>
+              </li>
+              <li class="font-avenir font-semibold mb-4">
+                <a href="#">Coffee</a>
+              </li>
+              <li class="font-avenir font-semibold mb-4">
+                <a href="#">Subscriptions</a>
+              </li>
+              <li class="font-avenir font-semibold mb-4">
+                <a href="#">Equipment</a>
+              </li>
+              <li class="font-avenir font-semibold mb-4">
+                <a href="#">Merch</a>
+              </li>
+              <li class="font-avenir font-semibold mb-4">
+                <a href="#">Wholesale</a>
+              </li>
+            </ul>
+          </div>
+
+          <div
+            id="2nd-col"
+            class="transition-all duration-300 h-[45px] overflow-hidden border-b border-[#B4A587] border-dashed md:border-none mb-[30px] md:h-auto"
+          >
+            <ul>
+              <li
+                class="font-avenir text-sm font-medium mb-[30px] uppercase flex justify-between"
+              >
+                Help and Info <i class="fa-solid fa-angle-down md:hidden"></i>
+              </li>
+              <li class="font-avenir font-semibold mb-4">
+                <a href="#">Contact</a>
+              </li>
+              <li class="font-avenir font-semibold mb-4">
+                <a href="#">My Personal Data</a>
+              </li>
+            </ul>
+          </div>
+
+          <div
+            id="3rd-col"
+            class="transition-all duration-300 h-[45px] overflow-hidden border-b border-[#B4A587] border-dashed md:border-none mb-[30px] md:h-auto"
+          >
+            <p
+              class="font-avenir text-sm font-medium mb-[30px] uppercase flex justify-between"
+            >
+              Newsletter <i class="fa-solid fa-angle-down md:hidden"></i>
+            </p>
+            <p class="max-w-[40ch] font-avenir font-semibold mb-4">
+              Subscribe and be the first to know about new releases, free
+              giveaways and all the latest news from Red Bank HQ.
+            </p>
+            <div class="py-5 flex items-center border-b border-white">
+              <input
+                class="bg-transparent w-full focus:outline-none text-footer_text font-semibold font-avenir placeholder:text-footer_text"
+                type="email"
+                placeholder="Enter your email"
+              />
+              <button type="submit">
+                <i class="fa-solid fa-arrow-right-long"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <p
+            class="font-avenir uppercase text-sm tracking-[2.6px] pb-[50px] hidden md:block"
+          >
+            © 2023 Red Bank Coffee Roasters
+          </p>
+          <div class="flex flex-col md:flex-row justify-between">
+            <div
+              class="flex items-center justify-center md:justify-start gap-2 border-b border-[#B4A587] border-dashed md:border-none pb-[30px] md:pb-0 mb-[30px] md:mb-0"
+            >
+              <p
+                class="uppercase text-sm font-avenir font-medium tracking-[2.6px]"
+              >
+                Built By
+              </p>
+              <img src="img/icon/N&O Logo.svg" alt="logo" />
+            </div>
+            <div
+              class="flex items-center justify-center md:justify-start gap-2 border-b border-[#B4A587] border-dashed md:border-none pb-[30px] md:pb-0 mb-[30px] md:mb-0"
+            >
+              <p
+                class="uppercase text-sm font-avenir font-medium tracking-[2.6px]"
+              >
+                Follow Our Journey
+              </p>
+              <img src="img/icon/Instagram Icon.svg" alt="Instagram" />
+            </div>
+          </div>
+          <p
+            class="font-avenir uppercase text-[13px] tracking-[2.6px] text-center block md:hidden"
+          >
+            © 2023 Red Bank Coffee Roasters
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script/all.min.js"></script>
+
+    <script src="script/splide.min.js"></script>
+    <script src="script/splide-extension-auto-scroll.min.js"></script>
+
+    <script src="script/script.js"></script>
+  </body>
+</html>
